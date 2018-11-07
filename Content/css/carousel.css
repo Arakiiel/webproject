@@ -1,27 +1,51 @@
 .carousel {
-  height: 400px;
-  width: 800px;
   overflow: hidden;
   text-align: center;
   position: relative;
   padding: 0;
   list-style: none;
-  /**
-    * Where the magic happens
-    */
-  /**
-      * Control element - right/left arrows
-    */
-  /**
-      * Element for holding slide indicators
-    */
-  /**
-      * Indicator for indicating active slide
-    */
-  /**
-      * Create rules for when slides are contained within a track
-    */
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .carousel {
+    height: 150px;
+    width: 300px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .carousel {
+    height: 200px;
+    width: 400px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel {
+    height: 300px;
+    width: 600px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel {
+    height: 350px;
+    width: 700px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel {
+    height: 400px;
+    width: 800px;
+  }
+}
+
 .carousel__controls,
 .carousel__activator {
   display: none;
