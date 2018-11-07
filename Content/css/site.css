@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(168, 213, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: antiquewhite;
+}
+
+.div-header {
+  display: flex;
+  justify-content: center;
+}
+
+.main-screen {
+  background-color: rgb(129, 173, 255);
+  margin: 10px;
+  border-color: rgb(129, 173, 255);
+  border-style: solid;
+  border-radius: 5px;
+}
+
+nav {
+  margin: 5px;
+  background-color: rgba(53, 124, 255, 0.9);
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  column-gap: 4px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  border-color: rgb(53, 124, 255);
+  border-style: solid;
+  border-radius: 15px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav .nav-link {
+  background-color: rgba(53, 124, 255, 0.75);
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+nav .nav-logo {
+  background-color: rgba(53, 124, 255, 0.75);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .nav-logo,
+nav .nav-link {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: rgba(53, 124, 255, 0.75);
+}
+
+nav .logo {
+  width: 100px;
+}
+
+nav .nav-link:hover,
+nav .nav-logo:hover {
+  background-color: rgb(37, 112, 253);
+  color: white;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0px 20px 20px 20px;
+  padding-bottom: 20px;
+  background-color: rgb(119, 166, 253);
+  border-color: rgb(119, 166, 253);
+  border-style: solid;
+  border-radius: 10px;
+}
